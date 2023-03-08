@@ -11,7 +11,7 @@ permalink: /about/
 
 [个人技术公众号](https://mp.weixin.qq.com/mp/homepage?__biz=MzkwOTE2OTY1Nw==&hid=1&sn=6395e40d884ce4dd3900a68a0f5a6b87&scene=18#wechat_redirect)分享编程学习路线、编程学习资源，记录技术成长，欢迎扫码添加：
 
-![公众号二维码](https://github.com/wshzd/images/ArronAI.jpg)
+![公众号二维码](https://github.com/wshzd/wshzd.github.io/assets/img/ArronAI.jpg)
 
 
 

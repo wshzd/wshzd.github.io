@@ -5,16 +5,12 @@ permalink: /about/
 ---
 
 ## 关于我
-你好，我是程序员柠檬。
+你好，我是NLP算法研究员Arron，任职国内一线互联网大厂NLP资深算法工程师、芯片厂商NLP算法研究员。
 
-国内一线互联网大厂计算机软件工程师、[知乎](https://www.zhihu.com/people/ning-meng-cheng-31-94)编程领域万赞答主。
+[知乎](https://www.zhihu.com/people/he-zhi-dong-87)。
 
-[个人技术公众号](https://mp.weixin.qq.com/mp/homepage?__biz=MzkwOTE2OTY1Nw==&hid=1&sn=6395e40d884ce4dd3900a68a0f5a6b87&scene=18#wechat_redirect)分享编程学习路线、编程学习资源，记录技术成长，欢迎扫码添加：
+[CSDN](https://blog.csdn.net/wshzd)
+
+[个人公众号](https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=402177096)主要分享前沿算法的动态进展、NLP相关算法以及NLP预训练大模型算法，记录技术成长，欢迎扫码添加：
 
 ![公众号二维码](assets/img/ArronAI.jpg)
-
-
-
-## 版权声明
-
-博客文章是我原创文章，存档于_posts 文件夹下，版权归我所有，转载请与我联系获得授权许可。

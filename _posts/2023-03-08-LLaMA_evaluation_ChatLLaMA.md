@@ -13,7 +13,7 @@ author: wshzd
 
 这是谷歌原始 PaLM 论文中展示的一个用例：给出一个笑话，让模型来解释它为什么好笑。该任务需要将世界知识和一些基本逻辑相结合。PaLM 之前的所有模型都无法做到这一点。作者从 PaLM 论文中提取了一些示例，比较了 LLaMA-7B、LLaMA-13B、LLaMA-33B 与 ChatGPT 的表现。
 
-![joke](https://github.com/wshzd/wshzd.github.io/blob/main/assets/img/LLaMA_evaluation_ChatLLaMA/joke.png)
+![joke](https://github.com/wshzd/wshzd.github.io/raw/main/assets/img/LLaMA_evaluation_ChatLLaMA/joke.png)
 
 可以看到，结果很糟糕。这些模型 get 到了一些笑点，但无法真正理解，它们只是随机生成一些相关的文本流。ChatGPT 虽与 LLaMA-33B 一样表现很差（其他几个模型更差），但它遵循了不一样的策略：生成了一大堆文本，希望自己的回答至少有一部分是正确的（但大部分显然不是），是不是很像大家考试时应对问答题的策略？
 

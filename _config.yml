@@ -19,7 +19,7 @@ description: "NLP Researcher"
 RSS: true
 #weibo_username:     huxpro
 #zhihu_username:     huxpro
-github_username:    fancyerii
+github_username:    wshzd
 #twitter_username:  huxpro
 #facebook_username:  huxpro
 
@@ -30,15 +30,17 @@ github_username:    fancyerii
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+# Exclude these files from your production _site
+exclude: ["Gemfile","Gemfile.lock","LICENSE","CNAME","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
-
 # Gems
-# from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
-
+# from PR#40, to support local preview for Jekyll 3.0, Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
 
 
 # Markdown settings
@@ -52,7 +54,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: fancyerii
+disqus_username: wshzd
 
 # Duoshuo settings
 duoshuo_username:  
@@ -64,7 +66,7 @@ duoshuo_share: false                     # set to false if you want to use Comme
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 1adf2d3145a435baa683d84388135812
+# ba_track_id: 1adf2d3145a435baa683d84388135812
 # Google Analytics
 # ga_track_id: 'UA-133955198-1'            # Format: UA-xxxxxx-xx
 # ga_domain: fancyerii.github.io
@@ -90,11 +92,6 @@ collections:
 
 
 
-
-#
-# Flags below are optional
-#
-
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: assets/img/ArronAI.jpg
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
@@ -113,10 +110,7 @@ navigation:
   - name: TAGS
     url: /tags
 
-# Pagination
-paginate: 8
-
-excerpt_separator: <!-- more -->
+# excerpt_separator: <!-- more -->
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -188,18 +182,4 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-paginate
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
 

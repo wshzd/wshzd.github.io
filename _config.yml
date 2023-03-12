@@ -8,9 +8,6 @@ keyword: ""
 url: "http://wshzd.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 excerpt_separator: "<!--more-->"
-#
-# This file contains configuration flags to customize your site
-#
 
 # Name of your site (displayed in the header)
 name: "Arron's HomePage"
@@ -30,13 +27,13 @@ favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/fa
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 首页
+  - name: HOME
     url: /
-  - name: 关于
+  - name: ABOUT
     url: /about
-  - name: 归档
+  - name: ARCHIVE
     url: /archive
-  - name: 标签
+  - name: TAGS
     url: /tags
 
 # Pagination

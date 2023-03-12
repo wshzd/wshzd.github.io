@@ -8,6 +8,7 @@ theme: jekyll-theme-minimal
 keyword: ""
 url: "http://wshzd.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+toc: true
 excerpt_separator: "<!--more-->"
 
 # Name of your site (displayed in the header)
